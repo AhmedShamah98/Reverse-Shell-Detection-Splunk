@@ -31,3 +31,7 @@ Monitors outbound network connections initiated by system processes (e.g., `rund
 ```spl
 index=* EventCode=3 
 | table _time Computer SourceIp SourcePort DestinationIp DestinationPort Image
+---
+
+<img width="1718" height="865" alt="180785" src="https://github.com/user-attachments/assets/50cc7dd6-3a97-4f4e-b2d5-34dffdec7e0f" />
+<img width="1905" height="960" alt="180786" src="https://github.com/user-attachments/assets/0feecdf1-53f4-44c7-8c2e-057e6b1d7531" />
